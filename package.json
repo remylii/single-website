@@ -14,7 +14,7 @@
     "build:css": "postcss -c postcss.config.js -o public/css/main.bundle.css src/styles/main.css",
     "watch": "yarn run watch:ejs & yarn run watch:css & yarn run watch:js",
     "watch:ejs": "watch 'yarn run build:html' src/templates --interval=0.1",
-    "watch:css": "postcss -c postcss.config.js -o public/css/main.bundle.css src/styles/main.css -w",
+    "watch:css": "watch 'yarn run build:css' src/styles --interval=0.1",
     "watch:js": "webpack -w",
     "lint": "eslint src test",
     "typecheck": "flow check",

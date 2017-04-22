@@ -13,8 +13,8 @@ coverage
 
 # Dependency directory
 node_modules
-public/*
-!public/.gitkeep
+public/css/*.bundle.css
+public/js/*.bundle.js
 .nyc_output
 
 # Distribution
