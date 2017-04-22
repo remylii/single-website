@@ -44,12 +44,29 @@
   background: url('../images/sky.jpg');
 }
 
+.work-image {
+  display: block;
+  width: 100%;
+  margin: 0 0 60%;
+}
+
 .work-description {
   position: absolute;
   top: 50%;
   left: 0;
+  z-index: 1;
   width: 100%;
   height: 50%;
+  overflow-y: auto;
+}
+
+.work-box:nth-child(odd) .work-image {
+  margin: 60% 0 0;
+}
+
+.work-box:nth-child(odd) .work-description,
+.work-box:nth-child(odd)::after {
+  top: 0;
 }
 
 .work-description-inner {
@@ -70,10 +87,4 @@
   width: 60%;
   margin-top: 20px;
   padding: 3px;
-}
-
-.work-image {
-  display: block;
-  width: 100%;
-  margin: 0 0 60%;
 }
