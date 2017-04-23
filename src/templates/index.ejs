@@ -8,18 +8,14 @@
   <link href="./css/main.bundle.css" rel="stylesheet">
 </head>
 <body>
+  <!-- header -->
   <%- include('./_partical/header') %>
-  <section id="about" class="about">
-    <h2 class="heading">ABOUT ME</h2>
-    <p class="about-text">
-      はじめまして。日本でWebデザイナーをしています。<br>
-      デザインの専門学校を卒業し、制作会社での業務経験を経て、現在はフリーランスとして働いています。
-    </p>
-    <p class="about-text">
-      このサイトは「HTML/CSS モダンコーディング」という書籍のサンプルとして作られた、架空のWebデザイナーのポートフォリオサイトです。<br>
-      このサンプルのようなサイトをいちから作る過程を通して、HTMLとCSSの実践的なコーディングノウハウを学ぶことができます。
-    </p>
-  </section>
+  <!-- /header -->
+
+  <!-- section.about -->
+  <%- include('./_partical/about') %>
+  <!-- /section.about -->
+
   <!-- section.works -->
   <%- include('./_partical/works') %>
   <!-- /section.works -->
@@ -32,10 +28,9 @@
   <%- include('./_partical/contact') %>
   <!-- /setion.contact -->
 
-  <footer class="footer">
-    footer
-  </footer>
-
+  <!-- footer -->
+  <%- include('./_partical/footer') %>
+  <!-- /footer -->
   <script src="./js/top.bundle.js"></script>
 </body>
 </html>
