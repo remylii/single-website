@@ -1,27 +1,27 @@
 .header {
-  padding: 170px 30px 80px;
+  padding-top: 60px;
 }
 
 .site-title-sub {
   margin: 0 0 30px;
   letter-spacing: 1px;
-  font-size: 2.2rem;
+  font-size: 1.7rem;
 }
 
 .site-title-sub::before,
 .site-title-sub::after {
   content: '';
-  display: inline-block;
-  width: 140px;
+  display: block;
+  width: 80%;
   height: 2px;
-  margin: 0 30px;
+  margin: 10px auto;
   background-color: #fff;
   vertical-align: middle;
 }
 
 .site-title {
-  margin: 50px 0 40px;
-  font-size: 7.6rem;
+  margin-top: 35px;
+  font-size: 5rem;
 }
 
 .site-description {
@@ -43,7 +43,7 @@
 }
 
 .button:hover {
-  opacity: 0.9;
+  opacity: 1;
 }
 
 .button-showy {
