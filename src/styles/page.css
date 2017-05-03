@@ -126,4 +126,12 @@
   .button:hover {
     opacity: 1;
   }
+
+  .heading {
+    font-size: 2.5rem;
+  }
+
+  .about-text {
+    line-height: 1.8;
+  }
 }
