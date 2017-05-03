@@ -88,3 +88,24 @@
   margin-top: 20px;
   padding: 3px;
 }
+
+@media (max-width: 768px) {
+  .works-wrapper,
+  .work-box {
+    display: block;
+  }
+
+  .work-image {
+    display: none;
+  }
+
+  .work-description {
+    position: relative;
+  }
+
+  .work-box::after {
+    top: 0;
+    height: 100%;
+    background-size: cover;
+  }
+}
