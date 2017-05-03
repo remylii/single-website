@@ -102,4 +102,28 @@
   body {
     font-size: 1.3rem;
   }
+
+  .header {
+    padding-top: 60px;
+  }
+
+  .site-title {
+    margin-top: 35px;
+    font-size: 5rem;
+  }
+
+  .site-title-sub {
+    font-size: 1.7rem;
+  }
+
+  .site-title-sub::before,
+  .site-title-sub::after {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+  }
+
+  .button:hover {
+    opacity: 1;
+  }
 }
