@@ -35,3 +35,25 @@
 .skill-box {
   display: table-cell;
 }
+
+@media (max-width: 768px) {
+  .skills-wrapper,
+  .skill-box {
+    display: block;
+  }
+
+  .skill-box {
+    margin: 40px auto;
+  }
+
+  .skill-icon {
+    width: 100px;
+    height: 100px;
+    font-size: 5rem;
+    line-height: 92px;
+  }
+
+  .skill-text {
+    margin: 0;
+  }
+}
